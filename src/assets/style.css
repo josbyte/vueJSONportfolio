@@ -1,0 +1,50 @@
+.lateralNavbar{
+    background-color: brown;
+    height: 100vh;
+    width: 30vh;
+    position: fixed;
+    padding-top: 30vh;
+    padding-left: 0vh;
+}
+.avatarImage{
+    margin-left: 7.5vh;
+    border-radius: 50%;
+    border-color: lightcoral;
+    border-style: solid;
+    border-width: 1vh;
+}
+.buttonNavbar{
+    padding: 0;
+    text-align: center;
+}
+
+.buttonNavbar>li{
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.buttonNavbar>li>a{
+    color: lightgoldenrodyellow;
+    font-weight: 1000;
+}
+
+
+.bloqueTitulo{
+    padding-top: 35vh;
+    margin-left: 35vh;
+    position: left;
+}
+.bloqueTexto{
+    margin-left: 35vh;
+    margin-bottom: 35vh;
+    margin-right: 45vh;
+    text-align: justify;
+}
+.bloqueTitulo>h1{
+    display: inline-block;
+}
+.bloqueTitulo>h5{
+    display: inline-block;
+}

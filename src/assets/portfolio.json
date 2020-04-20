@@ -1,0 +1,51 @@
+{
+    "espanol":{
+        "intro": {
+            "nombre": "José Miguel Sánchez Jiménez",
+            "lugar" : "Cijuela Granada España",
+            "telefono": "633114623",
+            "email": "josemiguelsanchezarje@gmail.com",
+            "textIntro": "testotesto",
+            "redes": {
+                "0":{
+                    "icono":"",
+                    "enlace":""
+                }
+            }
+        },
+        "exp": {
+            "SAHR":{
+                "nombre": "Software and hardware repairs",
+                "fecha": "",
+                "empresa":"",
+                "texto:":""
+            }
+        },
+        "edu":{
+            "IESARJE":{
+                "nombre": "Instituto IES arje - Chauchina Granada",
+                "nombreEstudio": "ESO",
+                "adtInfo":"",
+                "notaMedia":""
+            }
+        },
+        "skill":{
+            "category":{
+                "programming":{
+
+                },
+                "workflow":{
+
+                }
+            }
+        },
+        "interests":{
+            "text":""
+        },
+        "awards":{
+            "award":{
+                
+            }
+        }
+    }
+}
