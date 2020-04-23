@@ -1,0 +1,183 @@
+{
+    "espanol":{
+        "intro": {
+            "nombre": "José Miguel",
+            "apellido": "Sánchez Jiménez",
+            "lugar" : "Cijuela Granada España",
+            "telefono": "633114623",
+            "email": "josemiguelsanchezarje@gmail.com",
+            "textIntro": "Puedo trabajar con Vue.js, Angular, Javascript, PHP y Python para crear el sitio web o la aplicación que necesitan sus clientes. Soy consciente de la experiencia del usuario y puedo crear dicho sitio web / aplicación para que el usuario sienta que tiene una experiencia excelente, rápida e intuitiva junto con la interfaz de usuario. Pueden surgir problemas en la creación del proyecto, pero resolverlos y aprender de ellos, así como usar ese conocimiento en problemas anteriores, puede conducir a un sitio web excelente, responsivo y accesible.",
+            "redes": {
+                "0":{
+                    "icono":"./img/linkedin-icon.png",
+                    "enlace":"https://www.linkedin.com/in/jos%C3%A9-miguel-s%C3%A1nchez-jim%C3%A9nez-06aa08195/"
+                },
+                "1":{
+                    "icono":"./img/github-icon.png",
+                    "enlace":"https://github.com/JosoByte"
+                },
+                "2":{
+                    "icono":"./img/twitter-icon.png",
+                    "enlace":"https://twitter.com/Mersagoras"
+                }
+            }
+        },
+        "exp": {
+            "expText":"Experiencia",
+            "works":{
+                "SAHR":{
+                    "nombre": "Reparaciones software y hardware.",
+                    "fecha": "Marzo 2018 - Mayo 2018",
+                    "empresa":"Informática Cano",
+                    "texto":"Reparando software y hardware ademas de instalacion y configuracion de impresoras."
+                },
+                "SAHR2":{
+                    "nombre": "Reparaciones software y hardware.",
+                    "fecha": "Marzo 2018 - Mayo 2018",
+                    "empresa":"Informática Cano",
+                    "texto":"Reparando software y hardware ademas de instalacion y configuracion de impresoras."
+                }
+            }
+        },
+        "edu":{
+            "eduText":"Educación",
+            "studies":{
+                "IESAYALASMR2":{
+                    "nombre": "Instituto IES Aayala - Granada Granada",
+                    "nombreEstudio": "Desarrollo de Aplicaciones Web",
+                    "fecha":"Septiembre 2018 - ~",
+                    "adtInfo":"",
+                    "notaMedia":"~"
+                },
+                "IESAYALASMR":{
+                    "nombre": "Instituto IES Aayala - Granada Granada",
+                    "nombreEstudio": "Sistemas microinformáticos y redes",
+                    "fecha":"Septiembre 2017 - Mayo 2018",
+                    "adtInfo":"",
+                    "notaMedia":"9,8"
+                },
+                "IESARJE":{
+                    "nombre": "Instituto IES arje - Chauchina Granada",
+                    "nombreEstudio": "ESO",
+                    "fecha":"Septiembre 2012 - Junio 2017",
+                    "adtInfo":"",
+                    "notaMedia":"6,4"
+                }
+            }
+        },
+        "skill":{
+            "skillText":"Skills",
+            "skillTextProgramming":"Lenguajes de programación y otras habilidades",
+            "category":{
+                "programming":{
+                    "javaIcon":"./img/java-logo.png",
+                    "javascriptIcon":"./img/javascript-logo.png",
+                    "htmlIcon":"./img/html5-logo.png",
+                    "phpIcon":"./img/php-logo.png",
+                    "pythonIcon":"./img/python-logo.png",
+                    "sqlIcon":"./img/sql-logo.png",
+                    "cssIcon":"./img/css-logo.png",
+                    "vueIcon":"./img/vue-logo.png",
+                    "angularIcon":"./img/angular-logo.png"
+                },
+                "workflow":{
+                    "0":"Diseño responsivo",
+                    "1":"Debugging y testeo",
+                    "2":"Funciona en equipo",
+                    "3":"Trabajo persistente y determinado",
+                    "4":"Pensando en el usuario"
+                }
+            }
+        },
+        "interests":{
+            "textTitle":"Intereses",
+            "text":"Aparte del trabajo, me encanta aprender por mi cuenta sobre ciencia, creación de videojuegos, arte digital, creación de música y mas. Tengo cuenta en Fiverr donde hago traducciones de ingles a español y viceversa, ademas de trabajos en arte digital."
+        },
+        "awards":{
+            "awardTexto":"Premios y certificaciones",
+            "award":{
+                "0":"Ya irán saliendo",
+                "1":"Si, ya irán saliendo"
+            }
+        },
+        "proyectos":{
+            "textoProyectos":"Proyectos",
+            "proyecto":{
+                "0":{
+                    "imgProyecto":"./img/js-github-icon.png",
+                    "tituloProyecto":"Javascript plano y Ajax",
+                    "linkProduccion":"https://josobyte.github.io/jquery-plainJavascript/index.html",
+                    "linkRepositorio":"https://github.com/JosoByte/jquery-plainJavascript",
+                    "imagenes":{
+                        "img1":"./img/javascriptPlano_1.png",
+                        "img2":"./img/javascriptPlano_2.png"
+                    },
+                    "texto":"Esto es un prototipo de curriculum, una simple web con un cambiador de temas y algunas funciones en javascript para manejar el slider, todo texto es cargador de un JSON.",
+                    "tecnologias":"javascript, jquery (y algunos plugins), ajax, svg"
+                },
+                "1":{
+                    "imgProyecto":"./img/whatclone-github.png",
+                    "tituloProyecto":"Chat con Node y SocketIO",
+                    "linkProduccion":"https://vast-fortress-30813.herokuapp.com/",
+                    "linkRepositorio":"https://github.com/JosoByte/WhatClone",
+                    "imagenes":{
+                        "img1":"./img/whatclone-github_1.png",
+                        "img2":"./img/whatclone-github_2.png"
+                    },
+                    "texto":"Un chat, insertas usuario y contraseña, y eliges entre dos avatares, y entras en un chat donde puedes cambiar texto, imagenes, o archivos. Ademas de ver quien está conectado",
+                    "tecnologias":"javascript, jquery, ajax, node, socketIO"
+                }
+            }
+        }
+    },
+    "ingles":{
+        "intro": {
+            "nombre": "José Miguel",
+            "apellido": "Sánchez Jiménez",
+            "lugar" : "Cijuela Granada Spain",
+            "telefono": "633114623",
+            "email": "josemiguelsanchezarje@gmail.com",
+            "textIntro": "I can work with Vue.js, Angular, Javascript, PHP and Python to create the website or application your clients need. I am aware of user experience and able to create such website/app so the user feels having a great, fast, and intuitive experience along with the UI. Problems may come on the creation of the project but solving them and learn from them as well using that knowledge on previous issues can lead to a great, responsive, and accessible website.",
+            "redes": {
+                "0":{
+                    "icono":"",
+                    "enlace":""
+                }
+            }
+        },
+        "exp": {
+            "SAHR":{
+                "nombre": "Software and hardware repairs",
+                "fecha": "",
+                "empresa":"",
+                "texto:":""
+            }
+        },
+        "edu":{
+            "IESARJE":{
+                "nombre": "Instituto IES arje - Chauchina Granada",
+                "nombreEstudio": "ESO",
+                "adtInfo":"",
+                "notaMedia":""
+            }
+        },
+        "skill":{
+            "category":{
+                "programming":{
+
+                },
+                "workflow":{
+
+                }
+            }
+        },
+        "interests":{
+            "text":""
+        },
+        "awards":{
+            "award":{
+                
+            }
+        }
+    }
+}

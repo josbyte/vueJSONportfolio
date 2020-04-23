@@ -5,10 +5,14 @@
             "lugar" : "Cijuela Granada España",
             "telefono": "633114623",
             "email": "josemiguelsanchezarje@gmail.com",
-            "textIntro": "testotesto",
+            "textIntro": "I can work with vue.js, angular, javascript, PHP and python to create the website or application your clients need. I am aware of user experience and able to create such website/app so the user feels having a great, fast, and intuitive experience along with the UI. Problems may come in the creation of the project but solving them and learn from them as well using that knowledge on previous issues can lead to a great, responsive, and accesible website.",
             "redes": {
                 "0":{
-                    "icono":"",
+                    "icono":"./assets/linkedin-icon.png",
+                    "enlace":""
+                },
+                "1":{
+                    "icono":"./assets/linkedin-icon.png",
                     "enlace":""
                 }
             }
