@@ -1,5 +1,5 @@
 <template>
-  <div class="navigation">
+  <div class="education">
     <div class="bloqueTitulo">
       <h1><b>{{contenidoJson.edu.eduText}}</b></h1>
       <div v-for="dato in contenidoJson.edu.studies" :key="dato">

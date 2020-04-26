@@ -1,5 +1,5 @@
 <template>
-  <div class="navigation">
+  <div class="intro">
     <div class="bloqueTitulo">
       <h1 style="font-size:5em;"><b>{{contenidoJson.intro.nombre}}</b></h1>
       &nbsp;<h1 style="color:brown;font-size:5em;"><b>{{contenidoJson.intro.apellido}}</b></h1><br>

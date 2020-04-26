@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <Navigation/>
-
+      <Navigation v-bind:contenidoJson="contenidoJson"/>
       <Intro v-bind:contenidoJson="contenidoJson"/>
       <hr>
       <Experience v-bind:contenidoJson="contenidoJson"/>
@@ -50,6 +49,9 @@ export default {
     }
   },
   methods: {
+    beforeOpen (event) {
+      console.log(event.params.foo)
+    },
     cargaJson: function () {
       this.loading = true
       if (this.getCookie('idioma') === null || this.getCookie('idioma') === 'espanol') {

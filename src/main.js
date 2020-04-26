@@ -10,12 +10,12 @@ import './assets/style.css'
 import router from './router'
 import store from './store'
 import axios from 'axios'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faFacebook } from '@fortawesome/free-brands-svg-icons'
-import { library } from '@fortawesome/fontawesome-svg-core'
+import VModal from 'vue-js-modal'
+import vueScrollto from 'vue-scrollto'
 
-library.add(faFacebook)
-Vue.component('font-awesome-icon', FontAwesomeIcon)
+Vue.use(VModal)
+Vue.use(vueScrollto)
+
 Vue.use(axios)
 Vue.use(BootstrapVue)
 Vue.config.productionTip = false

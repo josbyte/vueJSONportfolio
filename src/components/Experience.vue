@@ -1,5 +1,5 @@
 <template>
-  <div class="navigation">
+  <div class="experience">
     <div class="bloqueTitulo">
       <h1><b>{{contenidoJson.exp.expText}}</b></h1>
       <div v-for="dato in contenidoJson.exp.works" :key="dato">

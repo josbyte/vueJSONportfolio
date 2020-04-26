@@ -1,5 +1,35 @@
 {
     "espanol":{
+        "menu":{
+            "0":{
+                "sobreMi": "SOBRE MI",
+                "posScroll": ".intro"
+            },
+            "1":{
+                "experiencia": "EXPERIENCIA",
+                "posScroll": ".experience"
+            },
+            "2":{
+                "educacion": "EdUCACION",
+                "posScroll": ".education"
+            },
+            "3":{
+                "skills": "SKILLS",
+                "posScroll": ".skill"
+            },
+            "4":{
+                "intereses": "INTERESES",
+                "posScroll": ".interests"
+            },
+            "5":{
+                "premios": "PREMIOS",
+                "posScroll": ".awards"
+            },
+            "6":{
+                "proyectos": "PROYECTOS",
+                "posScroll": ".projects"
+            }
+        },
         "intro": {
             "nombre": "José Miguel",
             "apellido": "Sánchez Jiménez",
@@ -43,21 +73,21 @@
             "eduText":"Educación",
             "studies":{
                 "IESAYALASMR2":{
-                    "nombre": "Instituto IES Aayala - Granada Granada",
+                    "nombre": "Instituto IES Ayala - Granada Granada",
                     "nombreEstudio": "Desarrollo de Aplicaciones Web",
                     "fecha":"Septiembre 2018 - ~",
                     "adtInfo":"",
                     "notaMedia":"~"
                 },
                 "IESAYALASMR":{
-                    "nombre": "Instituto IES Aayala - Granada Granada",
+                    "nombre": "Instituto IES Ayala - Granada Granada",
                     "nombreEstudio": "Sistemas microinformáticos y redes",
                     "fecha":"Septiembre 2017 - Mayo 2018",
                     "adtInfo":"",
                     "notaMedia":"9,8"
                 },
                 "IESARJE":{
-                    "nombre": "Instituto IES arje - Chauchina Granada",
+                    "nombre": "Instituto IES Aarje - Chauchina Granada",
                     "nombreEstudio": "ESO",
                     "fecha":"Septiembre 2012 - Junio 2017",
                     "adtInfo":"",
@@ -104,6 +134,8 @@
             "textoProyectos":"Proyectos",
             "proyecto":{
                 "0":{
+                    "codText":"Codigo",
+                    "prod":"En producción",
                     "imgProyecto":"./img/js-github-icon.png",
                     "tituloProyecto":"Javascript plano y Ajax",
                     "linkProduccion":"https://josobyte.github.io/jquery-plainJavascript/index.html",
@@ -113,9 +145,12 @@
                         "img2":"./img/javascriptPlano_2.png"
                     },
                     "texto":"Esto es un prototipo de curriculum, una simple web con un cambiador de temas y algunas funciones en javascript para manejar el slider, todo texto es cargador de un JSON.",
+                    "tecnologyText":"Technología",
                     "tecnologias":"javascript, jquery (y algunos plugins), ajax, svg"
                 },
                 "1":{
+                    "codText":"Codigo",
+                    "prod":"En producción",
                     "imgProyecto":"./img/whatclone-github.png",
                     "tituloProyecto":"Chat con Node y SocketIO",
                     "linkProduccion":"https://vast-fortress-30813.herokuapp.com/",
@@ -125,58 +160,176 @@
                         "img2":"./img/whatclone-github_2.png"
                     },
                     "texto":"Un chat, insertas usuario y contraseña, y eliges entre dos avatares, y entras en un chat donde puedes cambiar texto, imagenes, o archivos. Ademas de ver quien está conectado",
+                    "tecnologyText":"Tecnología",
                     "tecnologias":"javascript, jquery, ajax, node, socketIO"
                 }
             }
         }
     },
     "ingles":{
+        "menu":{
+            "0":{
+                "sobreMi": "ABOUT ME",
+                "posScroll": ".intro"
+            },
+            "1":{
+                "experiencia": "EXPERIENCE",
+                "posScroll": ".experience"
+            },
+            "2":{
+                "educacion": "EDUCATION",
+                "posScroll": ".education"
+            },
+            "3":{
+                "skills": "SKILLS",
+                "posScroll": ".skill"
+            },
+            "4":{
+                "intereses": "INTERESTS",
+                "posScroll": ".interests"
+            },
+            "5":{
+                "premios": "AWARDS",
+                "posScroll": ".awards"
+            },
+            "6":{
+                "proyectos": "PROJECTS",
+                "posScroll": ".projects"
+            }
+        },
         "intro": {
             "nombre": "José Miguel",
             "apellido": "Sánchez Jiménez",
             "lugar" : "Cijuela Granada Spain",
             "telefono": "633114623",
             "email": "josemiguelsanchezarje@gmail.com",
-            "textIntro": "I can work with Vue.js, Angular, Javascript, PHP and Python to create the website or application your clients need. I am aware of user experience and able to create such website/app so the user feels having a great, fast, and intuitive experience along with the UI. Problems may come on the creation of the project but solving them and learn from them as well using that knowledge on previous issues can lead to a great, responsive, and accessible website.",
+            "textIntro": "I can work with Vue.js, Angular, Javascript, PHP and Python to create the website or application that your clients need. I am aware of the user experience and can create such a website / app so that the user feels they have an excellent, fast and intuitive experience along with the user interface. Problems may arise in project creation, but solving and learning from them, as well as using that knowledge in past problems, can lead to an excellent, responsive, and accessible website.",
             "redes": {
                 "0":{
-                    "icono":"",
-                    "enlace":""
+                    "icono":"./img/linkedin-icon.png",
+                    "enlace":"https://www.linkedin.com/in/jos%C3%A9-miguel-s%C3%A1nchez-jim%C3%A9nez-06aa08195/"
+                },
+                "1":{
+                    "icono":"./img/github-icon.png",
+                    "enlace":"https://github.com/JosoByte"
+                },
+                "2":{
+                    "icono":"./img/twitter-icon.png",
+                    "enlace":"https://twitter.com/Mersagoras"
                 }
             }
         },
         "exp": {
-            "SAHR":{
-                "nombre": "Software and hardware repairs",
-                "fecha": "",
-                "empresa":"",
-                "texto:":""
+            "expText":"Experience",
+            "works":{
+                "SAHR":{
+                    "nombre": "Software and hardware repairs.",
+                    "fecha": "March 2018 - May 2018",
+                    "empresa":"Informática Cano",
+                    "texto":"Repairing software and hardware in addition to printer installation and configuration."
+                },
+                "SAHR2":{
+                    "nombre": "Software and hardware repairs..",
+                    "fecha": "March 2018 - May 2018",
+                    "empresa":"Informática Cano",
+                    "texto":"Repairing software and hardware in addition to printer installation and configuration."
+                }
             }
         },
         "edu":{
-            "IESARJE":{
-                "nombre": "Instituto IES arje - Chauchina Granada",
-                "nombreEstudio": "ESO",
-                "adtInfo":"",
-                "notaMedia":""
+            "eduText":"Educacation",
+            "studies":{
+                "IESAYALASMR2":{
+                    "nombre": "Instituto IES Ayala - Granada Granada",
+                    "nombreEstudio": "Development of Web Applications",
+                    "fecha":"September 2018 - ~",
+                    "adtInfo":"",
+                    "notaMedia":"~"
+                },
+                "IESAYALASMR":{
+                    "nombre": "Instituto IES Ayala - Granada Granada",
+                    "nombreEstudio": "Microcomputing systems and network",
+                    "fecha":"September 2017 - May 2018",
+                    "adtInfo":"",
+                    "notaMedia":"9,8"
+                },
+                "IESARJE":{
+                    "nombre": "Instituto IES Arje - Chauchina Granada",
+                    "nombreEstudio": "ESO",
+                    "fecha":"September 2012 - June 2017",
+                    "adtInfo":"",
+                    "notaMedia":"6,4"
+                }
             }
         },
         "skill":{
+            "skillText":"Skills",
+            "skillTextProgramming":"Programming languages and other tools",
             "category":{
                 "programming":{
-
+                    "javaIcon":"./img/java-logo.png",
+                    "javascriptIcon":"./img/javascript-logo.png",
+                    "htmlIcon":"./img/html5-logo.png",
+                    "phpIcon":"./img/php-logo.png",
+                    "pythonIcon":"./img/python-logo.png",
+                    "sqlIcon":"./img/sql-logo.png",
+                    "cssIcon":"./img/css-logo.png",
+                    "vueIcon":"./img/vue-logo.png",
+                    "angularIcon":"./img/angular-logo.png"
                 },
                 "workflow":{
-
+                    "0":"Responsive design",
+                    "1":"Debugging and testing",
+                    "2":"Workgroup",
+                    "3":"Persistent and determinated work",
+                    "4":"Thinking on the user"
                 }
             }
         },
         "interests":{
-            "text":""
+            "textTitle":"Interests",
+            "text":"Aside from work, I love learning on my own about science, video game creation, digital art, music creation, and more. I have a Fiverr account where I do translations from English to Spanish and vice versa, in addition to works in digital art."
         },
         "awards":{
+            "awardTexto":"Awards and certifications",
             "award":{
-                
+                "0":"Noone, for now...",
+                "1":"They will come out, eventually"
+            }
+        },
+        "proyectos":{
+            "textoProyectos":"Projects",
+            "proyecto":{
+                "0":{
+                    "codText":"Code",
+                    "prod":"In production",
+                    "imgProyecto":"./img/js-github-icon.png",
+                    "tituloProyecto":"Plain Javascript and Ajax",
+                    "linkProduccion":"https://josobyte.github.io/jquery-plainJavascript/index.html",
+                    "linkRepositorio":"https://github.com/JosoByte/jquery-plainJavascript",
+                    "imagenes":{
+                        "img1":"./img/javascriptPlano_1.png",
+                        "img2":"./img/javascriptPlano_2.png"
+                    },
+                    "texto":"This is a prototype curriculum, a simple website with a theme changer and some javascript functions to handle the slider, all text is a JSON loader.",
+                    "tecnologyText":"Technology",
+                    "tecnologias":"javascript, jquery (and some plugins), ajax, svg"
+                },
+                "1":{
+                    "codText":"Code",
+                    "prod":"In production",
+                    "imgProyecto":"./img/whatclone-github.png",
+                    "tituloProyecto":"Chat with Node and SocketIO",
+                    "linkProduccion":"https://vast-fortress-30813.herokuapp.com/",
+                    "linkRepositorio":"https://github.com/JosoByte/WhatClone",
+                    "imagenes":{
+                        "img1":"./img/whatclone-github_1.png",
+                        "img2":"./img/whatclone-github_2.png"
+                    },
+                    "texto":"A chat, insert username and password, and choose between two avatars, and you enter a chat where you can change text, images, or files. In addition to seeing who is online",
+                    "tecnologyText":"Technology",
+                    "tecnologias":"javascript, jquery, ajax, node, socketIO"
+                }
             }
         }
     }

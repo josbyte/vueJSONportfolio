@@ -1,5 +1,5 @@
 <template>
-  <div class="navigation">
+  <div class="interests">
     <div class="bloqueTitulo">
       <h1><b>{{contenidoJson.interests.textTitle}}</b></h1>
       <br>

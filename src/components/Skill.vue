@@ -1,5 +1,5 @@
 <template>
-  <div class="navigation">
+  <div class="skill">
     <div class="bloqueTitulo">
       <h1><b>{{contenidoJson.skill.skillText}}</b></h1>
       <br>
